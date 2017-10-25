@@ -2,7 +2,6 @@ import numpy as np
 from sympy import *
 from itertools import combinations_with_replacement
 
-
 def jet(X,U):
     J = [U[i]+X[j] for i in range(len(U)) for j in range(len(X))]
     return J
